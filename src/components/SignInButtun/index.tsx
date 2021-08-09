@@ -7,7 +7,7 @@ import styles from './styles.module.scss'
 
 export const SignInButtun: React.FC = () => {
 
-    const isUserLoggedIn = true;
+    const isUserLoggedIn = false;
 
     return isUserLoggedIn ? (
         <button 
